@@ -10,8 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className=' H-1 '>
                 <img alt="Logo" className="logo" src="Logos/SubCode-logos_white.png" />
                 <div>
-                    <h1 className="H-T-1"> S U B C O D E </h1>
-                    <h2 className='H-T-2'> Marketing and Web Design </h2>
+                    <h1 className="H-T-1"> KTNokes Custom Home Design </h1>
                 </div>
 
                 <nav className="main-header-menu">
@@ -30,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             <a
                                 href="#home"
                                 onClick={() => handlePageChange('Home')}
-                                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'Home' ? 'nav-linkactive' : 'nav-link'}
                             >
                                 Home
                             </a>
@@ -40,7 +39,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             <a
                                 href="#about"
                                 onClick={() => handlePageChange('About')}
-                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'About' ? 'nav-linkactive' : 'nav-link'}
 
                             >
                                 About
@@ -51,7 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                             <a
                                 href="#contact"
                                 onClick={() => handlePageChange('Contact')}
-                                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'Contact' ? 'nav-linkactive' : 'nav-link'}
                             >
                                 Contact
                             </a>

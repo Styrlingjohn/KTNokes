@@ -35,6 +35,7 @@ function Site() {
 
       {renderPage()}
      
+     
         <Footer />
         
     </div>

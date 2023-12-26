@@ -1,7 +1,102 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato-Regular';
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato-Regular';
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color:rgb(218,181,140);
+  height:  15vh;
+}
+
+.H-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.main-header-menu {
+  display: flex;
+  padding-right: 1%;
+}
+
+
+.logo {
+  width: 8vw;
+}
+
+.H-T-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 3vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(218,181,140);
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.nav-linkactive {
+  color: grey;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.nav-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+}
+
+.nav-tab:hover {
+  background-color: rgb(170, 170, 162);
+  color: black;
+}
+
+.F-cont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(218,181,140);
+}
+
+a:hover {
+  color: grey;
+}
+
+.F-CI {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 20%;
+  padding-bottom: 1%;
+  color: rgb(218,181,140);
+
+}
+
+@media screen and (max-width: 800px) {
+.F-cont {
+  width: 100%;
+}}

@@ -8,7 +8,7 @@ import Contact from "./components/pages/Contact";
 
 function App() {
     return(
-        <div className="background">
+        <div >
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Site />} />
