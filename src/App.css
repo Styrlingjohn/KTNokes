@@ -9,7 +9,6 @@
 header {
   display: flex;
   flex-direction: row;
-  align-items: center;
   width: 100%;
   background-color: black;
   color:rgb(218,181,140);
@@ -29,18 +28,12 @@ header {
 }
 
 
-.logo {
-  width: 8vw;
-}
-
-.H-T-1 {
-  display: flex;
-  justify-content: center;
-  font-size: 3vw;
-}
-
 .F-Span {
   color: rgb(90, 88, 88);
+}
+
+.logo{
+  width: 35vw;
 }
 
 .nav-link {
@@ -94,13 +87,30 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 20%;
   padding-bottom: 1%;
   color: rgb(218,181,140);
-
 }
 
 @media screen and (max-width: 800px) {
+ header {
+  height: fit-content;
+ }
 .F-cont {
   width: 100%;
-}}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.H-1 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-tab{
+  font-size: 3vw;
+}
+.logo {
+  margin-top: 15px;
+  width: 100%;
+}
+}

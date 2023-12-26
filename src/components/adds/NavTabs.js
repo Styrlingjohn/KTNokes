@@ -8,10 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <header className='header' >
             <div className=' H-1 '>
-                <img alt="Logo" className="logo" src="Logos/SubCode-logos_white.png" />
-                <div>
-                    <h1 className="H-T-1"> KTNokes Custom Home Design </h1>
-                </div>
+                <img alt="Logo" className="logo" src="KTNokesLogo.png" />
 
                 <nav className="main-header-menu">
                     <ul
