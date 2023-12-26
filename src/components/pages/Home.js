@@ -6,7 +6,8 @@ function Home() {
 
   return (
     <div>
-      Home for the holidays
+      Kadin builds good homes
+    
     </div>
     
   );

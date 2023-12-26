@@ -8,6 +8,10 @@ function Contact() {
         <div className='container mt-5'>
             <h1> Contact me! </h1>
 
+            <div>
+                <span className='F-Span'> *Basements must be at minimum of 500 Square Feet </span>
+            </div>
+            <br/>
 
             <form className='row g-3' action="https://formsubmit.co/ktnokes@gmail.com" method="POST">
                 <div className='col-md-6'>
@@ -42,6 +46,16 @@ function Contact() {
                         <option> Other </option>
                     </select>
                 </div>
+                <div className='col-md-8'>
+                    <label for='projectLocation' className='form-label'> Project Location: </label>
+                    <input type='text' className='form-control' name='Project Location' id='projectLocation'
+                        required placeholder='City'></input>
+                </div>
+                <div className='col-md-4'>
+                    <label for='sqFootage' className='form-label'> Approx. Sq. Footage (min of 500 sqft) </label>
+                    <input type='text' className='form-control' name='Sq Footage' id='sqFootage'
+                        required placeholder='500*'></input>
+                </div>
 
                 <div className='col-md-12'>
                     <label for="comments" className='form-label'> Description of Project </label>
@@ -52,6 +66,7 @@ function Contact() {
                     <button type='submit' className='btn btn-primary'> Submit </button>
                 </div>
             </form>
+            <br/>
         </div>
     );
 }

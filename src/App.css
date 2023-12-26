@@ -39,6 +39,10 @@ header {
   font-size: 3vw;
 }
 
+.F-Span {
+  color: rgb(90, 88, 88);
+}
+
 .nav-link {
   text-decoration: none;
   color: rgb(218,181,140);
