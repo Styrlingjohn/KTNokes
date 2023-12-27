@@ -15,10 +15,10 @@ function Site() {
       return <Home />;
     }
     if (currentPage === 'About') {
-    return <About />;
+      return <About />;
     }
     if (currentPage === 'Contact') {
-    return <Contact />;
+      return <Contact />;
     }
   };
 
@@ -28,16 +28,15 @@ function Site() {
 
 
   return (
-    <div>
+    <div className="siteHolder">
       <div>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
 
       {renderPage()}
-     
-     
+
         <Footer />
-        
+
     </div>
 
   );
