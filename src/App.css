@@ -15,8 +15,8 @@ header {
   flex-direction: row;
   width: 100%;
   background-color: black;
-  color:rgb(218,181,140);
-  height:  15vh;
+  color: rgb(218, 181, 140);
+  height: 15vh;
 }
 
 .H-1 {
@@ -36,13 +36,13 @@ header {
   color: rgb(90, 88, 88);
 }
 
-.logo{
+.logo {
   width: 35vw;
 }
 
 .nav-link {
   text-decoration: none;
-  color: rgb(218,181,140);
+  color: rgb(218, 181, 140);
 }
 
 .nav-link:hover {
@@ -71,6 +71,10 @@ ul {
   color: black;
 }
 
+.carousel {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 .F-cont {
   display: flex;
@@ -82,7 +86,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(218,181,140);
+  color: rgb(218, 181, 140);
 }
 
 a:hover {
@@ -94,29 +98,32 @@ a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   padding-bottom: 1%;
-  color: rgb(218,181,140);
+  color: rgb(218, 181, 140);
 }
 
 @media screen and (max-width: 800px) {
- header {
-  height: fit-content;
- }
-.F-cont {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.H-1 {
-  flex-direction: column;
-  align-items: center;
-}
+  header {
+    height: fit-content;
+  }
 
-.nav-tab{
-  font-size: 5vw;
-}
-.logo {
-  margin-top: 15px;
-  width: 100%;
-}
+  .F-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .H-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-tab {
+    font-size: 5vw;
+  }
+
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+  }
 }

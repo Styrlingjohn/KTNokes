@@ -1,29 +1,32 @@
-
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css';
+import Carousel from 'react-bootstrap/Carousel';
+import Basement1 from './Pics/Basement1.jpg'
+import Basement2 from './Pics/Basement2.jpg'
+
+
 
 const Slider = () => {
-
-
     return (
-        <div>
-            <Slide
-                autoplay={true}
-                onChange={function noRefCheck() { }}
-                onStartChange={function noRefCheck() { }}
-                duration={5000}
-            >
-                <div className="each-slide-effect">
-                    <div
-                        style={{
-                            backgroundImage: 'url(./Logos/SubCode-logos.jpeg)'
-                        }}
-                    >
-                    </div>
-                </div>
-           
-            </Slide>
+        <div className='carousel'>
+
+            <Carousel fade>
+                <Carousel.Item interval={5000}>
+                    <img style={{
+                        maxHeight: '90vh',
+                    }}
+                        className='d-block w-100'
+                        src={Basement1}
+                        alt='first slide' />
+                </Carousel.Item>
+                <Carousel.Item interval={5000}>
+                    <img style={{
+                        maxHeight: '90vh',
+                    }}
+                        className='d-block w-100'
+                        src={Basement2}
+                        alt='second slide' />
+                </Carousel.Item>
+            </Carousel>
         </div>
     );
 };
