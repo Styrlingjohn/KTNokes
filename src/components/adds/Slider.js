@@ -40,6 +40,7 @@ const Slider = () => {
                         alt='third slide' />
                 </Carousel.Item>
             
+            
             </Carousel>
         </div>
     );

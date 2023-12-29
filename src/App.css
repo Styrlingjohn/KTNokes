@@ -16,20 +16,19 @@ header {
   width: 100%;
   background-color: black;
   color: rgb(218, 181, 140);
-  height: 15vh;
+  height: 13vh;
 }
 
 .H-1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: fit-content;
 }
 
-.main-header-menu {
-  display: block;
- 
-  width: fit-content;
+.dropdown {
+  display: flex;
+  align-items: flex-end;
+  
 }
 
 
@@ -75,15 +74,16 @@ ul {
 
 
 .carousel-control-prev-icon {
- background-image: url('../public/Pics/Icons/left-arrow.png');
+  background-image: url('../public/Pics/Icons/left-arrow.png');
 }
 
 .carousel-control-next:hover {
   opacity: 1;
- 
+
 }
+
 .carousel-control-next-icon {
- background-image: url('../public/Pics/Icons/right-arrow.png');
+  background-image: url('../public/Pics/Icons/right-arrow.png');
 }
 
 .F-cont {
@@ -136,6 +136,7 @@ a:hover {
     margin-top: 15px;
     width: 100%;
   }
+
   .carousel {
     padding-left: 0px;
     padding-right: 0px;

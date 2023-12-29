@@ -1,8 +1,11 @@
 import React from 'react';
+import { DropdownItem, DropdownMenu, DropdownToggle } from 'react-bootstrap';
+import Dropdown from 'react-bootstrap/Dropdown';
+
 
 function NavTabs({ currentPage, handlePageChange }) {
 
-    const linkStyle = { border: '1px black', padding: '5px', textDecoration: 'none', };
+
 
 
     return (
@@ -10,51 +13,25 @@ function NavTabs({ currentPage, handlePageChange }) {
             <div className=' H-1 '>
                 <img alt="Logo" className="logo" src="KTNokesLogo.png" />
 
-                <nav className="main-header-menu">
-                    <ul
-                        style={{
-                            display: 'flex',
-                            flexDirection: 'column',
-                            justifyContent: 'space-evenly',
-                            textDecoration: 'none',
-                        }}
 
-                        className="list-unstyled"
-                    >
+                <Dropdown >
+                    <DropdownToggle variant='success' id='dropdown-basic'>
+                        Menu
+                    </DropdownToggle>
+                    <DropdownMenu>
+                        <DropdownItem href="#home" onClick={() => handlePageChange('Home')} >
+                            Home
+                        </DropdownItem>
 
-                        <li style={linkStyle} className='nav-tab'>
-                            <a
-                                href="#home"
-                                onClick={() => handlePageChange('Home')}
-                                className={currentPage === 'Home' ? 'nav-linkactive' : 'nav-link'}
-                            >
-                                Home
-                            </a>
-                        </li>
+                        <DropdownItem href="#about" onClick={() => handlePageChange('About')} >
+                            About
+                        </DropdownItem>
 
-                        <li style={linkStyle} className='nav-tab'>
-                            <a
-                                href="#about"
-                                onClick={() => handlePageChange('About')}
-                                className={currentPage === 'About' ? 'nav-linkactive' : 'nav-link'}
-
-                            >
-                                About
-                            </a>
-                        </li>
-
-                        <li style={linkStyle} className='nav-tab'>
-                            <a
-                                href="#contact"
-                                onClick={() => handlePageChange('Contact')}
-                                className={currentPage === 'Contact' ? 'nav-linkactive' : 'nav-link'}
-                            >
-                                Contact
-                            </a>
-                        </li>
-
-                    </ul>
-                </nav>
+                        <DropdownItem href="#contact" onClick={() => handlePageChange('Contact')} >
+                            Contact
+                        </DropdownItem>
+                    </DropdownMenu>
+                </Dropdown>
             </div>
         </header>
     );
