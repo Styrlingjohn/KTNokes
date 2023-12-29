@@ -25,12 +25,51 @@ header {
   width: 100%;
 }
 
+.dropdown-toggle {
+  color: rgb(218, 181, 140);
+  background-color: black;
+  border: none;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgb(218, 181, 140);
+  color: black;
+}
+
+.dropdown-toggle:focus {
+background-color: black;
+border: none
+}
+
+.dropdown-toggle:active {
+  background-color: black;
+  color: black;
+}
+
+
 .dropdown {
   display: flex;
   align-items: flex-end;
-  
+  width: 5%;
 }
 
+.dropdown:active {
+  color: aquamarine;
+}
+
+.dropdown-menu {
+  background-color: black;
+  margin-top: -3px;
+}
+
+.dropdown-item {
+  color: rgb(218, 181, 140);
+}
+
+.dropdown-item:hover {
+  background-color: rgb(218, 181, 140);
+  color: black;
+}
 
 .F-Span {
   color: rgb(90, 88, 88);

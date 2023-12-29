@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
 
                 <Dropdown >
-                    <DropdownToggle variant='success' id='dropdown-basic'>
+                    <DropdownToggle id='dropdown-basic' >
                         Menu
                     </DropdownToggle>
                     <DropdownMenu>
