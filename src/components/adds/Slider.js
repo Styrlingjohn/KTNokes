@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Basement1 from './Pics/Basement1.jpg';
 import Basement2 from './Pics/Basement2.jpg';
-
 import F2 from './Pics/F2.jpg';
 
 
@@ -16,7 +15,7 @@ const Slider = () => {
                 <Carousel.Item interval={5000}>
                     <img style={{
                         maxHeight: '90vh',
-                        objectFit: 'contain'
+                        objectFit: 'cover'
                     }}
                         className='d-block w-100'
                         src={Basement1}
@@ -25,7 +24,7 @@ const Slider = () => {
                 <Carousel.Item interval={5000}>
                     <img style={{
                         maxHeight: '90vh',
-                        objectFit: 'contain'
+                        objectFit: 'cover'
                     }}
                         className='d-block w-100'
                         src={Basement2}
@@ -34,7 +33,7 @@ const Slider = () => {
                 <Carousel.Item interval={5000}>
                     <img style={{
                         maxHeight: '90vh',
-                        objectFit: 'contain'
+                        objectFit: 'cover'
                     }}
                         className='d-block w-100'
                         src={F2}
