@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lato-Regular';
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .siteHolder {
@@ -23,6 +23,11 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.S-H-1 {
+  font-size: 1vw;
+  background-color: rgb(223, 223, 223);
 }
 
 .dropdown-toggle {

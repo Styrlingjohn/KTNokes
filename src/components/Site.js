@@ -4,6 +4,8 @@ import About from './pages/About';
 import Home from "./pages/Home";
 import Footer from "./adds/Footer";
 import Contact from "./pages/Contact";
+import Gallery from "./pages/Gallery";
+import Services from "./pages/Services";
 
 
 function Site() {
@@ -19,6 +21,12 @@ function Site() {
     }
     if (currentPage === 'Contact') {
       return <Contact />;
+    }
+    if (currentPage === 'Gallery') {
+      return <Gallery />;
+    }
+    if (currentPage === 'Services') {
+      return <Services />;
     }
   };
 
