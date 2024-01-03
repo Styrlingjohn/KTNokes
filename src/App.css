@@ -114,6 +114,13 @@ ul {
   color: black;
 }
 
+.col-md-6:hover {
+  background-color: black;
+  color: rgb(218, 181, 140);
+  transform: scale(1.009);
+  padding-bottom: 1%;
+}
+
 
 
 .carousel-control-prev-icon {

@@ -3,7 +3,7 @@ import { DropdownItem, DropdownMenu, DropdownToggle } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs () {
 
 
 
@@ -20,23 +20,23 @@ function NavTabs({ currentPage, handlePageChange }) {
                         Menu
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem href="#home" onClick={() => handlePageChange('Home')} >
+                        <DropdownItem href="/">
                             Home
                         </DropdownItem>
 
-                        <DropdownItem href="#about" onClick={() => handlePageChange('About')} >
+                        <DropdownItem href="/About" >
                             About the Company
                         </DropdownItem>
 
-                        <DropdownItem href="#contact" onClick={() => handlePageChange('Contact')} >
+                        <DropdownItem href="/Contact" >
                             Contact
                         </DropdownItem>
                       
-                        <DropdownItem href="#gallery" onClick={() => handlePageChange('Gallery')} >
+                        <DropdownItem href="/Gallery" >
                             Gallery
                         </DropdownItem>
                         
-                        <DropdownItem href="#services" onClick={() => handlePageChange('Services')} >
+                        <DropdownItem href="/Services"  >
                             Process and Services
                         </DropdownItem>
                     </DropdownMenu>
