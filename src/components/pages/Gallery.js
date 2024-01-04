@@ -7,7 +7,7 @@ function Gallery() {
 
   return (
     <div className='container-fluid'>
-      <h1 style={{ textDecoration: 'underline', display: 'flex', justifyContent: 'center' }}> Photo Gallery </h1>
+      <h1 style={{ textDecoration: 'underline', display: 'flex', justifyContent: 'center' }}> PHOTO GALLERY </h1>
       <br />
 
       <div className='row'>
