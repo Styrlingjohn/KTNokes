@@ -16,6 +16,7 @@ function Home() {
     alignItems: 'center',
     paddingBottom: '5%',
     paddingTop: '5%',
+    marginTop: '5%'
   
   };
 
@@ -29,7 +30,7 @@ function Home() {
 
       <section className='Home-G-L' style={Style}>
         <h1>Guaranteed Customer Satisfaction</h1>
-        <div style={{ width: '75%', display:'flex', textAlign:'center', opacity: '.8' }}>
+        <div style={{ width: '75%', display:'flex', textAlign:'center', opacity: '.8',}}>
           I have had multiple areas of my house remodeled by KT Nokes and have loved his work.
           Kadin is responsive, friendly, organized and really knows his stuff!  I was pleasantly
           surprised that my detached garage was completed so quickly.  He's got really good crews who
@@ -38,8 +39,6 @@ function Home() {
           -Racquel Augat
         </div>
       </section>
-
-
     </div>
 
   );

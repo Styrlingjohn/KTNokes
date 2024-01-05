@@ -5,9 +5,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-.siteHolder {
-  justify-content: center;
-}
 
 header {
   display: flex;
@@ -25,8 +22,9 @@ header {
 }
 
 .S-H-1 {
+  margin-top: 5%;
   font-size: 1vw;
-  background-color: rgb(223, 223, 223);
+  height: 100%;
 }
 
 .dropdown-toggle {
@@ -166,10 +164,11 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 32.3vw;
-  border: 1px solid;
 }
 
+.Home-G-L {
+  background-color: rgb(224, 224, 224);
+}
 
 .A-C {
   display: flex;
@@ -184,6 +183,8 @@ a:hover {
   padding-bottom: 1%;
   color: rgb(218, 181, 140);
 }
+
+
 
 @media screen and (max-width: 800px) {
   header {
@@ -206,9 +207,7 @@ a:hover {
     align-items: center;
   }
 
-  .A-C-1 {
-    height: 140vw;
-  }
+
 
   .nav-tab {
     font-size: 5vw;

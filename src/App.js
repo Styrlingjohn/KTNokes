@@ -16,7 +16,7 @@ import Remodels from "./components/pages/GPages/Remodels";
 
 function App() {
     return (
-        <div >
+        <div className='Site' style={{height:'fit-content'}}>
             <section>
                 <NavTabs />
             </section>
