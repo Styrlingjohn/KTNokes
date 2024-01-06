@@ -12,7 +12,7 @@ function Gallery() {
 
       <div className='row'>
 
-        <section className='col-md-6' >
+        <section className='Gal-Pics col-md-6' >
 
           <h1 className='text-center'>Basement's</h1>
           <a href='/Basements'>
@@ -25,7 +25,7 @@ function Gallery() {
           </a>
         </section>
         
-        <section className='col-md-6'>
+        <section className='Gal-Pics col-md-6'>
           <h1 className=' text-center'> New Construction </h1>
           <a href='/NewBuilds'><img
             src='./Pics/Framing/F1.jpg'
@@ -43,7 +43,7 @@ function Gallery() {
 
       <div className='row'>
 
-        <section className='col-md-6'>
+        <section className='Gal-Pics col-md-6'>
           <h1 className=' text-center'> Addition's</h1>
           <a href='/Additions'>
             <img
@@ -56,7 +56,7 @@ function Gallery() {
         </section>
 
 
-        <section className='col-md-6'>
+        <section className='Gal-Pics col-md-6'>
           <h1 className=' text-center'> Remodel's </h1>
           <a href='/Remodels'>
             <img

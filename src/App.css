@@ -28,7 +28,7 @@ header {
 }
 
 .dropdown-toggle {
-  color: rgb(218, 181, 140);
+  color: white;
   background-color: black;
   border: none;
 }
@@ -48,15 +48,10 @@ header {
   color: black;
 }
 
-
 .dropdown {
   display: flex;
   align-items: flex-end;
   width: 5%;
-}
-
-.dropdown:active {
-  color: aquamarine;
 }
 
 .dropdown-menu {
@@ -73,9 +68,6 @@ header {
   color: black;
 }
 
-.F-Span {
-  color: rgb(90, 88, 88);
-}
 
 .logo {
   width: 35vw;
@@ -112,13 +104,12 @@ ul {
   color: black;
 }
 
-.col-md-6:hover {
+.Gal-Pics:hover {
   background-color: black;
   color: rgb(218, 181, 140);
   transform: scale(1.009);
   padding-bottom: 1%;
 }
-
 
 
 .carousel-control-prev-icon {
@@ -135,13 +126,13 @@ ul {
 }
 
 
-
 .G-H-I {
   display: flex;
   align-items: center;
   width: 15vw;
   flex-direction: column;
 }
+
 
 .F-cont {
   display: flex;
@@ -151,9 +142,29 @@ ul {
   margin-top: 7.72%;
 }
 
+.F-CI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+  color: white;
+  width: fit-content;
+}
+
+.Instalink {
+ display: flex;
+ width: 10%;
+}
+
+.Insta {
+  width: 100%;
+}
+
+
 a {
   text-decoration: none;
-  color: rgb(218, 181, 140);
+  color: white;
 }
 
 a:hover {
@@ -166,6 +177,7 @@ a:hover {
   align-items: center;
 }
 
+
 .Home-G-L {
   background-color: rgb(224, 224, 224);
 }
@@ -176,14 +188,6 @@ a:hover {
   justify-content: space-around;
 }
 
-.F-CI {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-bottom: 1%;
-  color: rgb(218, 181, 140);
-}
-
 
 
 @media screen and (max-width: 800px) {
@@ -191,8 +195,16 @@ a:hover {
     height: fit-content;
   }
 
+
   .A-C {
     flex-direction: column;
+  }
+
+  .carousel {
+    height: 170vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .F-cont {
@@ -206,8 +218,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
-
-
 
   .nav-tab {
     font-size: 5vw;
@@ -225,5 +235,7 @@ a:hover {
 
   .Home-G-L {
     height: 45vw;
+    font-size: medium;
+    height: max-content;
   }
 }
