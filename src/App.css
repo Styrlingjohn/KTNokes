@@ -153,8 +153,8 @@ ul {
 }
 
 .Instalink {
- display: flex;
- width: 10%;
+  display: flex;
+  width: 10%;
 }
 
 .Insta {
@@ -188,6 +188,27 @@ a:hover {
   justify-content: space-around;
 }
 
+.P-S-H {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.P-S-I {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vw;
+}
+
+.P-S {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -236,6 +257,13 @@ a:hover {
   .Home-G-L {
     height: 45vw;
     font-size: medium;
+    height: max-content;
+  }
+
+  .P-S-I {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: max-content;
   }
 }
