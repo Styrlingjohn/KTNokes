@@ -5,7 +5,7 @@ import React from 'react';
 function Contact() {
 
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5' style={{color:'white'}}>
             <h1> Contact me! </h1>
 
             <div>

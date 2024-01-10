@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -13,6 +13,7 @@ header {
   background-color: black;
   color: rgb(218, 181, 140);
   height: 13vh;
+  border-bottom: 1px solid white;
 }
 
 .H-1 {
@@ -34,7 +35,7 @@ header {
 }
 
 .dropdown-toggle:hover {
-  background-color: rgb(218, 181, 140);
+  background-color: white;
   color: black;
 }
 
@@ -55,17 +56,17 @@ header {
 }
 
 .dropdown-menu {
-  background-color: black;
+  background-color: white;
   margin-top: -3px;
 }
 
 .dropdown-item {
-  color: rgb(218, 181, 140);
+  color: black;
 }
 
 .dropdown-item:hover {
-  background-color: rgb(218, 181, 140);
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 
@@ -91,18 +92,6 @@ ul {
   list-style-type: none;
 }
 
-
-.nav-tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1vw;
-}
-
-.nav-tab:hover {
-  background-color: rgb(170, 170, 162);
-  color: black;
-}
 
 .Gal-Pics:hover {
   background-color: black;
@@ -139,7 +128,8 @@ ul {
   justify-content: space-evenly;
   width: 100%;
   background-color: black;
-  margin-top: 7.72%;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .F-CI {
@@ -147,7 +137,6 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 5px;
   color: white;
   width: fit-content;
 }
@@ -173,13 +162,13 @@ a:hover {
 
 .A-C-1 {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  padding-bottom: 5%;
+  color: white;
+  border-bottom: 1px solid white;
 
-
-.Home-G-L {
-  background-color: rgb(224, 224, 224);
 }
 
 .A-C {
@@ -188,10 +177,25 @@ a:hover {
   justify-content: space-around;
 }
 
+.Atext {
+  display: flex;
+  width: 90%;
+  text-align: center;
+}
+
+
+.Home-G-L {
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+
 .P-S-H {
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-color: black;
+  color: white;
 }
 
 .P-S-I {
@@ -208,6 +212,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid white;
 }
 
 

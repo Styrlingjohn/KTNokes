@@ -16,7 +16,7 @@ import Remodels from "./components/pages/GPages/Remodels";
 
 function App() {
     return (
-        <div className='Site'>
+        <div className='Site' style={{backgroundColor:'black'}}>
             <section>
                 <NavTabs />
             </section>
