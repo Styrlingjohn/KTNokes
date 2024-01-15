@@ -150,6 +150,10 @@ ul {
   width: 100%;
 }
 
+.contact-H {
+  width: 100%;
+  border-bottom: solid 1px white;
+}
 
 a {
   text-decoration: none;
@@ -165,14 +169,57 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5%;
   color: white;
-  border-bottom: 1px solid white;
 
+}
+
+.A-C-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-top: 5%;
+  border-top: 1px white solid;
+}
+
+.about-all {
+  border-bottom: 1px white solid;
+}
+
+.core {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+.core-H {
+  display: flex;
+  height: 20vw;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  border: 1px white solid;
+
+}
+.C-text {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.c-Img-H {
+  width: 40%;
+  padding: 5%;
 }
 
 .A-C {
   display: flex;
+  width: 100%;
   margin-top: 20px;
   justify-content: space-around;
 }
