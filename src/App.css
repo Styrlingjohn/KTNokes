@@ -101,14 +101,6 @@ ul {
 }
 
 
-.Gal-Pics:hover {
-  background-color: black;
-  color: rgb(218, 181, 140);
-  transform: scale(1.009);
-  padding-bottom: 1%;
-}
-
-
 
 .carousel-words {
   display: flex;
@@ -199,6 +191,7 @@ a:hover {
 .A-C-2 {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100%;
   align-items: center;
   padding-top: 5%;
@@ -261,6 +254,17 @@ a:hover {
   color: white;
 }
 
+
+.Gal-Pics {
+  color: white;
+  border: 1px white solid;
+}
+
+
+.Gal-Pics:hover {
+  color: rgb(218, 181, 140);
+  border: 1px rgb(218, 181, 140) solid;
+}
 
 .P-S-H {
   width: 100%;
