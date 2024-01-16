@@ -113,7 +113,7 @@ ul {
   position: absolute;
   top: 80%;
   left: 25%;
-  font-size: xx-large;
+  font-size: 2.2vw;
 }
 
 .carousel-control-prev-icon {
@@ -199,6 +199,8 @@ a:hover {
 }
 
 .about-all {
+  display: flex;
+  flex-direction: column;
   border-bottom: 1px white solid;
 }
 
@@ -206,6 +208,7 @@ a:hover {
   display: flex;
   width: 100%;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 5%;
 }
@@ -246,6 +249,7 @@ a:hover {
   display: flex;
   width: 90%;
   text-align: center;
+
 }
 
 
@@ -258,6 +262,11 @@ a:hover {
 .Gal-Pics {
   color: white;
   border: 1px white solid;
+}
+
+.remodel {
+  display: flex;
+
 }
 
 
@@ -297,15 +306,29 @@ a:hover {
   border-bottom: 1px solid white;
 }
 
+.remodel-P-S {
+  width: 50%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid white;
+}
+
 
 @media screen and (max-width: 800px) {
   header {
     height: fit-content;
   }
 
+  .dropdown {
+    justify-content: center;
+  }
 
   .A-C {
     flex-direction: column;
+
   }
 
   .carousel {
@@ -320,6 +343,18 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .core {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .core-H {
+    width: 100%;
+    height: fit-content;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .H-1 {
@@ -342,7 +377,6 @@ a:hover {
   }
 
   .carousel-words {
-    font-size: 10px;
     top: 70%;
   }
 
@@ -356,10 +390,28 @@ a:hover {
     font-size: 30px;
   }
 
+  .P-S {
+    width: 100%;
+
+  }
+
+  .remodel {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .remodel-P-S {
+    width: 100%;
+    height: min-content;
+  }
+
+
+
   .P-S-I {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: max-content;
   }
+
 }

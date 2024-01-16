@@ -6,17 +6,18 @@ function Services() {
 
   return (
     <div className='P-S-H'>
-      
+
       <div className='P-S-I'>
         <div className='P-S'>
           <img
+          className='PS-img'
             src='./Pics/Kadins Home/K1.jpg'
             alt='img'
             style={{ width: '50%', height: '100%' }} />
         </div>
         <div className='P-S'>
           <h1>New Build's</h1>
-          <div style={{display:'flex', width:'80%', textAlign:'center'}}>
+          <div style={{ display: 'flex', width: '80%', textAlign: 'center' }}>
             We commence by delving into detailed consultations to grasp your vision and needs.
             From initial site assessments to collaborating with architects and engineers for
             meticulous planning, we handle all permitting and approvals seamlessly. During the
@@ -31,36 +32,41 @@ function Services() {
 
 
       <div className='P-S-I'>
-        <div className='P-S'>
-          <h1>Remodel's</h1>
-          <div style={{display:'flex', width:'80%', textAlign:'center'}}>
-            We begin with a detailed assessment and
-            consultation to understand your goals. Collaborating closely with skilled
-            architects, we create tailored plans within your budget. Managing permits,
-            we handle everything from structural adjustments to interior upgrades like kitchens,
-            bathrooms, flooring, and painting. Our aim is to ensure your vision comes to life
-            with quality and attention to detail, delivering a stunning transformation for your
-            existing space.
+        <div class='remodel'>
+          <div className='remodel-P-S'>
+            <h1>Remodel's</h1>
+            <div style={{ display: 'flex', width: '80%', textAlign: 'center' }}>
+              We begin with a detailed assessment and
+              consultation to understand your goals. Collaborating closely with skilled
+              architects, we create tailored plans within your budget. Managing permits,
+              we handle everything from structural adjustments to interior upgrades like kitchens,
+              bathrooms, flooring, and painting. Our aim is to ensure your vision comes to life
+              with quality and attention to detail, delivering a stunning transformation for your
+              existing space.
+            </div>
+
+          </div>
+          <div className='remodel-P-S'>
+            <img
+              className='PS-img'
+              src='./Pics/Bathroom Remodel/BR1.jpg'
+              alt='img'
+              style={{ width: '60%', height: '100%' }} />
           </div>
         </div>
-        <div className='P-S'>
-          <img
-            src='./Pics/Bathroom Remodel/BR1.jpg'
-            alt='img'
-            style={{ width: '60%', height: '100%' }} />
-        </div>
       </div>
- 
+
       <div className='P-S-I'>
         <div className='P-S'>
           <img
+            className='PS-img'
             src='./Pics/Basement/Basement1.jpg'
             alt='img'
             style={{ width: '100%', height: '100%' }} />
         </div>
         <div className='P-S'>
           <h1>Basement's</h1>
-          <div style={{display:'flex', width:'80%', textAlign:'center'}}>
+          <div style={{ display: 'flex', width: '80%', textAlign: 'center' }}>
             Transforming basements into functional and inviting spaces is our expertise. Our
             process starts with a thorough assessment and consultation to understand your vision
             for the space. We craft customized plans that maximize the potential of your

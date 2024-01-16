@@ -18,7 +18,7 @@ function About() {
 
 
         <div className='A-C-1 container'>
-          <h1>About KT Nokes Custom Homes</h1>
+          <div className='Home-header'>About KT Nokes Custom Homes</div>
           <div className='Atext'>
             At KT Nokes Custom Homes, we're dedicated to bringing your construction dreams to life. With a
             commitment to quality and client satisfaction, our experienced team handles residential and commercial
