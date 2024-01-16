@@ -108,12 +108,12 @@ ul {
   justify-content: center;
   color: black;
   width: 50%;
-  height: 10%;
+  height: fit-content;
   background-color: rgb(141, 141, 141, 0.5);
   position: absolute;
   top: 80%;
   left: 25%;
-  font-size: 2.2vw;
+  font-size: 1.6vw;
 }
 
 .carousel-control-prev-icon {
@@ -377,6 +377,7 @@ a:hover {
   }
 
   .carousel-words {
+    font-size: 2.2vw;
     top: 70%;
   }
 
