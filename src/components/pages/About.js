@@ -11,7 +11,7 @@ function About() {
       <div className=' A-C container-fluid'>
         <div className='A-C-1 container'>
           <img
-            src='./Pics/Headshot.jpg'
+            src='./Pics/Headshot.png'
             alt='headshot'
             style={{ width: '50%', height: '100%' }}></img>
         </div>

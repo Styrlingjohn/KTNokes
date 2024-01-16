@@ -26,8 +26,6 @@ function Home() {
 
       <Slider />
 
-      <br />
-
       <section className='Home-G-L' style={Style}>
         <h1>Guaranteed Customer Satisfaction</h1>
         <div style={{ width: '75%', display: 'flex', textAlign: 'center', opacity: '.8', }}>

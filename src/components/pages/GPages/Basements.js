@@ -17,6 +17,11 @@ function Basements() {
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Waves at Sea"
                 />
+                <img
+                    src="./Pics/KRB4.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Waves at Sea"
+                />
 
             </div>
 
@@ -25,6 +30,16 @@ function Basements() {
                     src="./Pics/Basement/Basement3.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Mountains in the Clouds"
+                />
+                <img
+                    src="./Pics/KRB2.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+                />
+                <img
+                    src="./Pics/KRB1.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Wintry Mountain Landscape"
                 />
 
             </div>
@@ -38,6 +53,11 @@ function Basements() {
                 />
                 <img
                     src="./Pics/Basement/Basement4.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                />
+                <img
+                    src="./Pics/KRB3.jpg"
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt="Boat on Calm Water"
                 />
