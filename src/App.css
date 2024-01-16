@@ -266,6 +266,11 @@ a:hover {
   border: 1px rgb(218, 181, 140) solid;
 }
 
+.Home-header {
+  text-align: center;
+  font-size: 50px;
+}
+
 .P-S-H {
   width: 100%;
   display: flex;
@@ -304,7 +309,7 @@ a:hover {
   }
 
   .carousel {
-    height: 170vw;
+    height: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,10 +341,19 @@ a:hover {
     padding-right: 0px;
   }
 
+  .carousel-words {
+    font-size: 10px;
+    top: 70%;
+  }
+
   .Home-G-L {
     height: 45vw;
     font-size: medium;
     height: max-content;
+  }
+
+  .Home-header {
+    font-size: 30px;
   }
 
   .P-S-I {
