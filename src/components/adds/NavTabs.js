@@ -3,7 +3,7 @@ import { DropdownItem, DropdownMenu, DropdownToggle } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
-function NavTabs () {
+function NavTabs() {
 
 
 
@@ -12,7 +12,9 @@ function NavTabs () {
     return (
         <header className='header' >
             <div className=' H-1 '>
-                <img alt="Logo" className="logo" src="KTNokesLogo.png" />
+                <a href='/'>
+                    <img alt="Logo" className="logo" src="KTNokesLogo.png" />
+                </a>
 
 
                 <Dropdown >
@@ -31,11 +33,11 @@ function NavTabs () {
                         <DropdownItem href="/Contact" >
                             Contact
                         </DropdownItem>
-                      
+
                         <DropdownItem href="/Gallery" >
                             Gallery
                         </DropdownItem>
-                        
+
                         <DropdownItem href="/Services"  >
                             Process and Services
                         </DropdownItem>
